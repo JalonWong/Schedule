@@ -6,3 +6,6 @@ i18n/*.qm
 *.ini
 build/
 dist/
+ui_main.py
+*.json
+!sample.json

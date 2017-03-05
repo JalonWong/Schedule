@@ -125,7 +125,7 @@
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true"/>
+         <string notr="true">color:grey</string>
         </property>
         <property name="text">
          <string>12:00</string>
@@ -154,6 +154,9 @@
           <weight>50</weight>
           <bold>false</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:grey</string>
         </property>
         <property name="text">
          <string>TextLabel</string>
