@@ -72,17 +72,21 @@ class MainCtrl(MainWindow):
         localtime = time.localtime(time.time())
         self.lastSec = localtime.tm_sec
         self.viewSchedule(None, data[0])
+
+        dl = None
         for d in data:
             if d.hour > localtime.tm_hour or (d.hour == localtime.tm_hour and d.min > localtime.tm_min):
-                self.viewSchedule(None, d)
                 break
+            dl = d
+
+        self.viewSchedule(dl, d)
 
     def onTick(self):
-        dl = None
-        dn = None
         data = self.schdData
         localtime = time.localtime(time.time())
         if localtime.tm_sec < self.lastSec:
+            dl = None
+            dn = None
             for d in data:
                 if dl:
                     dn = d
