@@ -1,18 +1,6 @@
 {
     "Schedule": [
-        { "time":"8:00" , "content":"a" },
-        { "time":"9:00" , "content":"b" },
-        { "time":"11:30" , "content":"c" },
-        { "time":"12:00" , "content":"d" },
-        { "time":"13:00" , "content":"e" },
-        { "time":"13:30" , "content":"f" },
-        { "time":"14:00" , "content":"g" },
-        { "time":"16:00" , "content":"h" },
-        { "time":"17:00" , "content":"i" },
-        { "time":"18:00" , "content":"j" },
-        { "time":"19:30" , "content":"k" },
-        { "time":"21:30" , "content":"l" },
-        { "time":"22:00" , "content":"m" },
-        { "time":"23:00" , "content":"n" }
+        { "time":"9:00" , "content":"Work" },
+        { "time":"12:00" , "content":"Lunch" }
     ]
 }
